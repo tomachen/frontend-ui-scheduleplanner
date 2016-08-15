@@ -28,4 +28,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
 
+Можно использовать любой сброс стилей: normalize или reset.
+
 Шрифт, макеты (4 PSD) и скриншоты находятся в папке **/psd**. Скриншот блога предоставлен только для понимания картины в целом. Разрабатывать блог не нужно.
