@@ -1,3 +1,3 @@
 cd ..
-call npm run analize
+call npm test
 pause
