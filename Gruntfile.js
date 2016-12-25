@@ -95,12 +95,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-w3c-html-validation');
 	grunt.loadNpmTasks('grunt-browser-sync');
 
-	grunt.registerTask('live', ['watch']);
-   grunt.registerTask('start', ['browserSync', 'watch']);
-	grunt.registerTask('test', ['htmlhint:main', 'validation', 'csslint:main']);
-
-
 	grunt.registerTask('csscode', ['csslint:main']);
 	grunt.registerTask('htmlcode', ['htmlhint:main']);
 	grunt.registerTask('htmlvalidate', ['validation']);
-};
+   grunt.registerTask('start', ['browserSync', 'watch']);
+}

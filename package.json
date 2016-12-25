@@ -16,7 +16,6 @@
 	},
 	"scripts": {
 		"start": "grunt start",
-		"live": "grunt live",
 		"test": "grunt htmlcode & grunt htmlvalidate & grunt csscode"
 	}
 }
