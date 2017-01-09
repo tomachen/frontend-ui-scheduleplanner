@@ -143,6 +143,73 @@ article p:last-child {
 	
 }
 
+/* Top section
+-----------------------------------------------------------------------------*/
+.top-section {
+	background: url(../images/bg_noise.png) repeat;
+}
+
+.device-menu {
+	display: block;
+	list-style: none;
+	padding: 50px 0;
+	margin: 0;
+	text-align: center;	
+}
+
+.device-menu .menu-item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 00 0 9%;
+	padding: 0;
+}
+.device-menu .menu-item:first-child{
+	margin-left: 0;
+}
+
+.device-menu a{
+	position: relative;
+	display: block;
+	padding-top: 56px;
+	margin: 0;
+	
+	color: #32353a;
+	font-size: 14px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.device-menu a:hover {
+	color: #d65600;
+}
+
+.device-menu a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background: url(../images/bg_platforms.png) no-repeat;
+}
+
+.device-menu .iphone a::before{
+	width: 25px;
+	height: 42px;
+	background-position: -29px 0;
+}
+.device-menu .iphone a:hover::before{
+	background-position: -108px 0;
+}
+.device-menu .ipad  a::before{
+
+}
+.device-menu .andeoid  a::before{
+
+}
+.device-menu .kindle  a::before{
+
+}
+
 
 /* Articles teasers
 -----------------------------------------------------------------------------*/
