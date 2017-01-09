@@ -11,7 +11,6 @@
         url('fonts/lucida-grande-bold.ttf') format('truetype');
 } 
 
-
 @font-face {
     font-weight: normal;
     font-style: normal;
@@ -82,6 +81,15 @@ h2 {
 	font-size: 22px;
 	margin: 0 0 12px;
 	font-weight: normal;
+	color: #915542;
+}
+
+article p {
+	margin: 0 0 1em;
+}
+
+article p:last-child {
+	margin: 0;
 }
 
 /* Header
@@ -133,6 +141,50 @@ h2 {
 -----------------------------------------------------------------------------*/
 .content {
 	
+}
+
+
+/* Articles teasers
+-----------------------------------------------------------------------------*/
+.articles-previews {
+	width: auto;
+	background: #eee;
+	padding-top: 26px;
+	padding-bottom: 1px;
+}
+
+.articles-previews article {
+	display: block;
+	position: relative;
+	padding-left: 100px;
+	margin-bottom: 26px;
+	min-height: 80px;
+	box-sizing: border-box;
+}
+
+.articles-previews .image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80px;
+}
+
+.articles-previews .image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 800px){
+	.articles-previews article {
+		display: inline-block;
+		vertical-align: top;
+		width: calc((99% - 4%) / 2) ;
+		margin-right: 4%;
+	}
+	.articles-previews article:nth-child(even) {
+		margin-right: 0;
+	}
 }
 
 
@@ -304,3 +356,6 @@ h2 {
 		display: inline-block;
 	}
 }
+
+
+/*background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);*/
