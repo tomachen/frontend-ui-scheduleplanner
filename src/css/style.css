@@ -211,6 +211,74 @@ article p:last-child {
 }
 
 
+
+/* Fetures
+-----------------------------------------------------------------------------*/
+.features {
+	background: url(../images/bg_support.png) repeat;
+	padding: 22px 0;
+}
+
+.features .feature-list {
+	display: block;
+	list-style: none;
+	padding: 0;
+}
+
+.features .feature-list li{
+	display: block;
+	min-height: 63px;
+	margin: 0 0 25px;
+	padding: 0 0 0 86px;
+	color: #fff;
+	font-size: 20px;
+	background: no-repeat 0 center;
+}
+.features .feature-list li:last-child {
+	margin-bottom: 0;
+}
+.features .feature-list .security {
+	background-image: url(../images/icon_lock.png);
+}
+.features .feature-list .copy {
+	background-image: url(../images/icon_copy.png);
+}
+.features .feature-list .repeat {	
+	background-image: url(../images/icon_repeat.png);
+}
+.features .feature-list .customization {
+	background-image: url(../images/icon_flash.png);
+}
+
+
+/* Reviews
+-----------------------------------------------------------------------------*/
+
+.reviews {
+	position: relative;
+	height: 250px;
+	outline: 1px dotted red;
+}
+
+.reviews .link-read-more {
+	z-index: 1;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	margin-bottom: -20px;
+	width: 150px;
+	height: 40px;
+	background: #666;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
 /* Articles teasers
 -----------------------------------------------------------------------------*/
 .articles-previews {
